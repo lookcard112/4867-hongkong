@@ -1,0 +1,71 @@
+#header{ 
+	background-color:#99FFCC;
+	color: black;
+	border: 1px solid black; 
+	border-radius: 8px; 
+	margin: 5px; 
+	padding: 15px; 
+	font-size: 20px;
+	color: black;
+
+}
+
+#main, #aside, #footer { 
+	background-color:#99FFCC;
+	color: black;
+	border: 1px solid black; 
+	border-radius: 8px; 
+	margin: 5px; 
+	padding: 15px; 
+	font-size: 20px;
+
+}
+
+h1 {
+    font-weight: 400;
+    text-align: center;
+    font-size: 40px;
+	background-color: lightblue;
+}
+
+.parallax{
+	background-image:url("Image/top.jpg");
+		
+	min-height: 500px;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+}
+
+.parallax1{
+	background-image:url("Image/old.jpg");
+		
+	min-height: 500px;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+}
+
+.parallax2{
+	background-image:url("Image/map.png");
+		
+	min-height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+}
+
+.parallax3{
+	background-image:url("Image/p1.jpg");
+		
+	min-height: 500px;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+}
+
+

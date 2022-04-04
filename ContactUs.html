@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/ContactUs.css">
+</head>
+
+<body>
+
+<h3>Contact Form</h3>
+
+<div class="container">
+
+  <!-- JavaScript Usage -->
+
+  <form name="myForm" action="/action_page.php" onsubmit="return false;">
+  
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your firstname is...">
+
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your lastname is...">
+
+    <div><label for="country" >Country:</label>
+		<select id="country" name="country">
+		  <option value="Australia">Australia</option>
+		  <option value="Canada">Canada</option>
+		  <option value="Hong Kong">Hong Kong</option>
+		  <option value="USA">USA</option>
+		  <option value="Other">Other</option>
+		</select>
+	</div>
+
+    <label for="subject">Subject:</label>
+    <textarea id="subject" name="subject" placeholder="Write something here..." style="height:200px"></textarea>
+	
+	<!-- JavaScript Usage -->
+  
+    <input type="submit" onclick="alert('Thank you for visiting!');" />
+    <input type="button" value="Back" onclick="self.location.href='Main.html'"/>
+	<input type="reset" value = "Reset" >
+	
+  </form>
+ 
+</div>
+
+</body>
+</html>

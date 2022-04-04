@@ -1,0 +1,47 @@
+#header, #main {
+  border: none;
+  margin: 5px;
+  padding: 15px;
+  box-shadow: none;
+  background-color: green;
+  
+}
+
+#header {
+  order: 1;
+  width: 100%;
+  font-size: 25px;
+  background-color: green;
+  display: flex;
+  
+}
+
+#main {
+  order: 2;
+  width: 100%;
+  height: auto;
+  font-size: 20px;
+     
+}
+
+h1 {
+	color: red;
+	font-size: 25px;
+	
+}
+
+h4 {
+	color: red;
+	font-size: 20px;
+			
+}
+
+.Victoria{
+	background-image:url("Image/Victoria.jpg");
+		
+	min-height: 500px;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+}
